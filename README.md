@@ -1,4 +1,4 @@
-#=== Whitecoin Payments for WooCommerce ===  
+*** Whitecoin Payments for WooCommerce***  
 Contributors: Oizopower, Whitecoin  
 Donate link: http://whitecoin.info  
 Tags: whitecoin , whitecoin wordpress, plugin , bitcoin plugin, whitecoin payments, accept whitecoin, bitcoins , accept whitecoin , whitecoins  
