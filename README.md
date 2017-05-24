@@ -1,21 +1,21 @@
-=== Whitecoin Payments for WooCommerce ===
-Contributors: Oizopower, Whitecoin
-Donate link: http://whitecoin.info
-Tags: whitecoin , whitecoin wordpress, plugin , bitcoin plugin, whitecoin payments, accept whitecoin, bitcoins , accept whitecoin , whitecoins
-Requires at least: 3.0.1
-Tested up to: 3.9
-Stable tag: 1.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
+#=== Whitecoin Payments for WooCommerce ===  
+Contributors: Oizopower, Whitecoin  
+Donate link: http://whitecoin.info  
+Tags: whitecoin , whitecoin wordpress, plugin , bitcoin plugin, whitecoin payments, accept whitecoin, bitcoins , accept whitecoin , whitecoins  
+Requires at least: 3.0.1  
+Tested up to: 3.9  
+Stable tag: 1.0  
+License: GPLv2 or later  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+  
 
 
 Whitecoin Payments for WooCommerce is a Wordpress plugin that allows to accept whitecoin at WooCommerce-powered online stores.
 
-== Description ==
-Based in Bitcoin Payments for WooCommerce
-Your online store must use WooCommerce platform (free wordpress plugin).
-Once you installed and activated WooCommerce, you may install and activate Whitecoin Payments for WooCommerce.
+== Description ==  
+Based in Bitcoin Payments for WooCommerce  
+Your online store must use WooCommerce platform (free wordpress plugin).  
+Once you installed and activated WooCommerce, you may install and activate Whitecoin Payments for WooCommerce.  
 
 
 = Benefits =
@@ -35,25 +35,25 @@ Once you installed and activated WooCommerce, you may install and activate White
 * Ability to set exchange rate calculation multiplier to compensate for any possible losses due to bank conversions and funds transfer fees.
 
 
-== Installation ==
-Before you start, you must configure a RPC Whitecoin Wallet in Windows/Linux or Mac with this settings in whitecoin.conf:
+== Installation ==  
+Before you start, you must configure a RPC Whitecoin Wallet in Windows/Linux or Mac with this settings in whitecoin.conf:  
 Example:
 
-rpcuser=username
-rpcpassword=Secretsuperpass
-daemon=1
-server=1
-rpcport=15815
-port=15814
-rpcallowip=127.0.0.1
-rpcssl=1
-addnode=seed1.oizopower.nl
-addnode=seed2.oizopower.nl
-addnode=seed3.oizopower.nl
+rpcuser=username  
+rpcpassword=Secretsuperpass  
+daemon=1  
+server=1  
+rpcport=15815  
+port=15814  
+rpcallowip=127.0.0.1  
+rpcssl=1  
+addnode=seed1.oizopower.nl  
+addnode=seed2.oizopower.nl  
+addnode=seed3.oizopower.nl  
 
-If you wanna use a ssl Certificate you must create with this intructions if not skip this step:
+If you wanna use a ssl Certificate you must create with this intructions if not skip this step:  
 
-****https://en.bitcoin.it/wiki/Enabling_SSL_on_original_client_daemon
+https://en.bitcoin.it/wiki/Enabling_SSL_on_original_client_daemon
 
 
 1.  Install WooCommerce plugin and configure your store (if you haven't done so already - http://wordpress.org/plugins/woocommerce/).
